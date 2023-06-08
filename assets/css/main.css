@@ -177,7 +177,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -256,7 +256,7 @@ input, select, textarea {
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
-		padding: 0.25em 0.65em;
+		padding: 0.25em 0.15em;
 	}
 
 	pre {
@@ -1774,7 +1774,7 @@ input, select, textarea {
 		width: -webkit-max-content;
 		width: -ms-max-content;
 		width: max-content;
-		margin-bottom: 2em;
+		margin-bottom: 1em;
 	}
 
 		header.major > :first-child {
@@ -1806,6 +1806,10 @@ input, select, textarea {
 		body.is-ie header.major > h1:after {
 			max-width: 100% !important;
 		}
+
+	.indent {
+		padding-left: 1em;
+	}
 
 	@media screen and (max-width: 736px) {
 
