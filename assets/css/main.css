@@ -3954,3 +3954,8 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+.washed:not(:hover) {
+	opacity : 0.6;
+	filter: alpha(opacity=60);
+}
